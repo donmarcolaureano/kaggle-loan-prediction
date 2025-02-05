@@ -15,7 +15,7 @@ The goal for this competition is to create a model that can predict whether an a
 | loan_grade   | Rating of loan | 
 | loan_amnt   | Loan amount requested |
 | loan_int_rate    | Loan interest rate | 
-| loan_status    | Status of loan | 
+| loan_status    | Status of loan (1 = Denied, 0 = Approved) | 
 | loan_percent_income    | Debt to income ratio |
 | cb_person_default_on_file    | If applicant has a record of defaulting on a loan |   
 | cb_person_cred_hist_length    | Applicant's credit history length | 

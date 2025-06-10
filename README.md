@@ -4,6 +4,9 @@ Finding and utilizing the best predictive model for the loan approval task, givi
 ### Goal
 The goal for this competition is to create a model that can predict whether an applicant is approved for a loan.
 
+## Overview 
+Automatically predicts whether a loan application will be approved using demographic and financial features. Built with typical classifiers like KNN, Random Forests, Decision Trees, and SVM
+
 ### Dictionary
 | Field Name | Description |
 | ---------- | ----------- |
@@ -19,3 +22,28 @@ The goal for this competition is to create a model that can predict whether an a
 | loan_percent_income    | Debt to income ratio |
 | cb_person_default_on_file    | If applicant has a record of defaulting on a loan (Y, N) | 
 | cb_person_cred_hist_length    | Applicant's credit history length |
+
+## Getting Started 
+###Prerequisites
+- Python 3.7+
+- Jupyter Notebook or JupyterLab
+- Key Python libraries:
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+ 
+### Install Dependencies:
+pip install numpy pandas scikit-learn matplotlib seaborn
+
+### Running Notebook
+1. Launch Jupyter: jupyter notebook
+2. Open loan-prediction-ml.ipynb:
+- Load dataset
+- Perform preprocessing & EDA
+- Encode categorical features
+- Train & evaluate models: KNN, Decision Tree, Random Forest, SVM
+3. Run accuracy_run.ipynb
+- Compare accuracy across models
+- Visualize performance

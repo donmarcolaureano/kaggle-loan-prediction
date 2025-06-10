@@ -47,3 +47,22 @@ pip install numpy pandas scikit-learn matplotlib seaborn
 3. Run accuracy_run.ipynb
 - Compare accuracy across models
 - Visualize performance
+
+## Results & Performance
+See results.csv and analysis in accuracy_run.ipynb. Expect accuracy in the range of ~70–85%, depending on preprocessing and model tuning
+
+## Usage
+1. Preprocess the data (missing values, feature encoding).
+2. Train your model of choice.
+3. Use it to predict on the test dataset.
+4. Optionally, tune hyperparameters or apply ensemble techniques for improved accuracy.
+
+## Contributions 
+Feel free to submit PRs to:
+- Add new models (e.g., XGBoost, Logistic Regression)
+- Improve feature engineering
+- Integrate evaluation pipelines (cross‑validation, grid search)
+- Package models for deployment
+
+### Data Source: 
+Dataset obtained from Kaggle: Loan Prediction Problem 

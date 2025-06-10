@@ -24,7 +24,7 @@ Automatically predicts whether a loan application will be approved using demogra
 | cb_person_cred_hist_length    | Applicant's credit history length |
 
 ## Getting Started 
-###Prerequisites
+### Prerequisites
 - Python 3.7+
 - Jupyter Notebook or JupyterLab
 - Key Python libraries:
